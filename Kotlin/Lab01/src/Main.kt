@@ -28,7 +28,7 @@ fun main()
 
     println("\n-----3. Feladat------\n")
     println("Prime numbers: ")
-    for (i in 2..100)
+    for (i in 0..100)
     {
 
         val k = fel3(i);
@@ -89,6 +89,7 @@ fun main()
     println(numbers.filter { even(it) }.size == numbers.size)
     println("--Average of numbers")
     //ezt a feladatot nem értem. A foreach az listák iterálására való. Egyelemű listát kiíratni felesleges foreach-el
+
     println(numbers.average())
 
 
@@ -118,6 +119,10 @@ fun fel2(daysOfWeek:List<String>)
 
 fun fel3(n : Int) : Boolean
 {
+    if (n == 0 || n == 1)
+    {
+        return false
+    }
     var i = 2
     var p = 1
     while (i < n) {
