@@ -7,37 +7,51 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/nameOfPersonGET"
+        android:id="@+id/userName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="444dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
-        android:hint="Your name"
+        android:hint="@string/your_name"
         android:inputType="textCapSentences"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/chooseContactbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="53dp"
-        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="312dp"
         android:onClick="sendMessage"
-        android:text="Get Started"
-        app:layout_constraintEnd_toEndOf="@+id/nameOfPersonGET"
-        app:layout_constraintTop_toBottomOf="@+id/nameOfPersonGET" />
+        android:text="@string/get_started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        android:text="QUIZ"
-        app:layout_constraintBottom_toTopOf="@+id/nameOfPersonGET"
+        android:layout_marginBottom="144dp"
+        android:text="@string/quiz"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/userName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/chooseContactbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/chooseContactbtn"
+        app:layout_constraintBottom_toTopOf="@+id/startButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

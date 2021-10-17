@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="quiz">QUIZ</string>
+    <string name="quiz">Quiz App</string>
+    <string name="your_name">Your name</string>
+    <string name="get_started">Get Started</string>
+    <string name="chooseContactbtn">CHOOSE CONTACT</string>
 </resources>
