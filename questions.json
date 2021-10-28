@@ -1,0 +1,94 @@
+{
+  "array": [
+    {
+      "question": "Kotlin is developed by?",
+      "answers": [
+        "JetBrains",
+        "Google",
+        "Microsoft",
+        "Adobe"
+      ]
+    },
+    {
+      "question": "Which of following is used to handle null exceptions in Kotlin?",
+      "answers": [
+        "Elvis operator",
+        "Sealed Class",
+        "Range",
+        "Lambda function"
+      ]
+    },
+    {
+      "question": "Which file extension is used to save Kotlin files?",
+      "answers": [
+        ".kt or .kts",
+        ".java",
+        ".kot",
+        ".android"
+      ]
+    },
+    {
+      "question": "What is an immutable variable?",
+      "answers": [
+        "A variable that cannot change, read-only",
+		"A variable that can be changed",
+		"A variable used for string interpolation",
+		"A variable that can be changed only once"
+      ]
+    },
+    {
+      "question": "What is a correct way to create an arraylist in Kotlin?",
+      "answers": [
+        "val list = arrayListOf(1, 2, 3)",
+		"val map = hashMapOf(1 to \"one\", 2 to \"two\", 3 to \"three\")",
+		"val set = hashSetOf(1, 2, 3)",
+		"enum class Color {RED, GREEN, BLUE}"
+      ]
+    },
+    {
+      "question": "Which of the following constructors are available in Kotlin?",
+      "answers": [
+        "Primary constructor and secondary constructor",
+		"Primary constructor",
+		"Secondary constructor",
+		"None of these answers"
+      ]
+    },
+    {
+      "question": "Which of the following extension methods are used in Kotlin?",
+      "answers": [
+        "All of the other answers",
+		"Buffer reader ()",
+		"Read texts () & Headlines ()",
+		"Read each line ()"
+      ]
+    },
+    {
+      "question": "Which of the following is not basic data type in Kotlin?",
+      "answers": [
+        "Lists",
+		"Strings",
+		"Arrays",
+		"Numbers"
+      ]
+    },
+    {
+      "question": "Kotlin was developed under the _________ license.",
+      "answers": [
+        "Apache 2.0",
+		"Apache 1.0",
+		"Apache 1.1",
+		"None of the answers"
+      ]
+    },
+    {
+      "question": "Is there a 'new' keyword in Kotlin?",
+      "answers": [
+        "No",
+		"Yes",
+		"Kotlin has a keyword for instance creation, but it is not 'new'",
+		"Kotlin doesn't have instance creation"
+      ]
+    }
+  ]
+}
