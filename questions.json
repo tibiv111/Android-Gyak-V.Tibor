@@ -1,5 +1,4 @@
-{
-  "array": [
+[
     {
       "question": "Kotlin is developed by?",
       "answers": [
@@ -90,5 +89,4 @@
 		"Kotlin doesn't have instance creation"
       ]
     }
-  ]
-}
+]
